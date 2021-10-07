@@ -20,8 +20,6 @@ h1, h3, h4, p {
     margin: 0;
 }
 
-/* TODO BUTTON*/ 
-
 
 header, footer {
     background-color: #1f2937;
@@ -49,7 +47,7 @@ main {
 }
 
 .logo {
-    font-weight: bold;
+    font-size: 24px;
 }
 
 .logo,
@@ -75,18 +73,29 @@ footer {
 .header-card {
     flex-shrink: 0;
     gap: 64px;
-    margin: 36px 0;
+    margin: 48px 0;
     justify-content: space-between;
     align-items: center;
 }
+
 .header-card .left {
     flex-direction: column;
+    gap: 16px;
+}
+
+.header-card .left h1 {
+    font-size: 48px;
 }
 
 .header-card img {
-    width: 400px;
+    width: 600px;
     border: 1px;
     border-radius: 8px;
+}
+
+.subtext {
+    margin-top: 8px;
+    max-width: fit-content;
 }
 /* main */
 .first, 
@@ -97,11 +106,12 @@ footer {
 
 .first h1 {
     text-align: center;
-    margin: 16px auto;
+    margin: 32px auto;
 }
 
 .cards {
     gap: 24px;
+    justify-content: space-between;
 }
 
 .card {
