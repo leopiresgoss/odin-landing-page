@@ -20,22 +20,34 @@ h1, h3, h4, p {
     margin: 0;
 }
 
-
 header, footer {
     background-color: #1f2937;
     padding: 16px;
     display: flex;
     justify-content: center;
 }
+
 main {
     background-color: #fff;
     padding: 0;
 }
+
 .container {
     flex-direction: column;
     align-items: center;
     flex: 1 0 auto;
     max-width: 1000px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 /* header */
@@ -160,6 +172,10 @@ footer {
 }
 .box .right {
     display: block;
+}
+
+.box button {
+    border: 1px solid #f9faf8;
 }
 
 
